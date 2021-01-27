@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Programming Fun</title>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="refresh" content="2"/> -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <textarea id="source">
+name: title
+class: center, middle, inverse
+
+# Programming !Fun
+
+---
+name: agenda
+
+.left-column[
+## Agenda
+]
+
+.right-column[
+1. [Introduction](#introduction)
+1. [Programming](#programming)
+1. [In the beginning ...](#hello-world)
+1. [Programming and fun](#pscircle)
+1. [Automate your life](#automate-your-life-1)
+1. [Script everything](#script-everything)
+1. [Quine](#quine)
+1. [Cheating Quine](#cheating-quine)
+1. [Do it with passion](#passion)
+1. [Competitive Programming](#competitive-programming)
+]
+
+---
+name: introduction
+
+.left-column[
+### Introduction
+]
+
+.right-column[
+## Mehedi Imam Shafi
+Software Engineer
+
+Progoti Systems Ltd, SureCash
+]
+
+<div class="introduction-contact">
+    <h4>Contact</h4>
+    <ul>
+        <li><a href="mailto:mehedishafi@hotmail.com">mehedishafi@hotmail.com</a></li>
+        <li><a href="mailto:mehedishafi@surecash.net">mehedishafi@surecash.net</a></li>
+    </ul>
+</div>
+
+.footnote-small[[mehedi-shafi.github.io](https://mehedi-shafi.github.io)]
+
+---
+name: programming
+class: center, middle
+
+## What is programming?
+
+---
+name: hello-world
+.left-column[
+`Hello World!`
+]
+```asm
+.model small
+.data
+        msg db 10d,13d,"Hello World$"
+
+.code
+        mov ax,@data
+        mov ds,ax
+                                        
+        lea dx,msg                      
+        mov ah,09h                      
+        int 21h                         
+
+        mov ah,4ch                      
+        int 21h                         
+end
+```
+
+
+---
+name: hello-world-c
+
+.left-column[
+`Hello World!`
+]
+
+.right-column[
+```c
+#include<stdio.h>
+
+int main(void)
+{
+    printf("Hello, world!");
+    return 0;
+}
+```
+]
+
+
+---
+name: hello-world-emoji
+
+.left-column[
+`Hello World!`
+]
+
+.right-column[
+```emojic
+🐇 🐼 🍇
+    🐇🐖 🏁 ➡️ 🚂 🍇
+        😀 🔤Hello world!🔤
+        🍎 0
+    🍉
+🍉
+```
+]
+
+
+---
+name: hello-world-emoji-no
+template: hello-world-emoji
+
+.right-column-append[
+<b style="color: red;" >Please don't use this one!</b>
+]
+
+
+---
+name: hello-to-ml
+
+### What's next?
+
+<img src="assets/hello_to_ml.png" style="margin-left: 100px;" height="500" width="400" />
+
+
+---
+name: pscircle
+
+### What's this?
+<img src="assets/pscircle.png" height="100%" width="100%" />
+
+
+---
+name: pscircle-zoom
+
+#### Hmmm... 
+<img src="assets/pscircle_zoomed.png" height="90%" width="100%" />
+
+.footnote-small[
+[https://gitlab.com/mildlyparallel/pscircle/](https://gitlab.com/mildlyparallel/pscircle/)
+]
+
+---
+name: store-time-1
+class: center,middle
+
+## Story Time
+
+
+---
+name: script-everything
+class: center,middle
+
+### Time is valuable
+
+<img src="assets/save_time.jpg" height="100%" width="100%" />
+
+
+---
+name: automate-your-life-1
+class: center,middle
+
+### Automating the life
+
+[hacker-who-automated-stuffs](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/)
+
+.footnote-small[
+`#nsfw`
+]
+
+---
+name: automate-your-life-2
+template: automate-your-life-1
+
+... scans the inbox for emails from "Kumar" (a DBA at our clients). Looks for keywords like "help", "trouble", "sorry" etc. If keywords are found - the script SSHes into the clients server and rolls back the staging database to the latest backup. Then sends a reply "no worries mate, be careful next time".
+
+---
+name: beating-game
+class: center
+
+#### Beat the game?
+
+<video width="720" height="480" controls loop>
+    <source src="assets/word_scrabble1.mp4" type="video/mp4" />
+</video>
+
+.footnote-small[
+[https://github.com/mehedi-shafi/word-scrabble-bot](https://github.com/mehedi-shafi/word-scrabble-bot)
+]
+---
+name: script-everything
+class: center,middle
+
+### Script Everything!!!
+
+
+---
+name: quine
+
+.left-column[
+## Quine
+]
+
+.right-column[
+[secretgeek.github.io/html_wysiwyg/](https://secretgeek.github.io/html_wysiwyg/html.html)
+<iframe src="https://secretgeek.github.io/html_wysiwyg/html.html"  class="html-embed" />
+]
+
+---
+name: quine2
+
+.left-column[
+## Quine
+]
+
+.right-column[
+<img src="assets/quine.png" width="600px" height="600px">
+]
+
+---
+name: cheating-quine
+class: center,middle
+
+### How to write the smallest quine?
+
+---
+name: cheating-quine-2
+
+.left-column[
+`Cheating quine`
+]
+
+.right-column[
+```c
+
+```
+]
+
+
+---
+name: passion
+class: center,middle
+
+### If you do what you love, you'll never work a day in your life.
+                                - Marc Anthony
+
+
+---
+name: competitive-programming
+class: center,middle
+
+### Competitive programming
+
+
+---
+name: development
+class: center,middle
+
+### Or Development?
+
+
+---
+name: incentive
+class: center,middle
+
+### Why would/should I do these??
+
+
+---
+name: incentive-2
+
+.left-column[
+### Incentives
+]
+
+.right-column[
+* Better job
+]
+
+---
+name: incentive-3
+template: incentive-2
+
+.right-column-append[
+* Better Salary
+]
+
+---
+name: incentive-4
+template: incentive-3
+
+.right-column-append[
+* Challenge for brain
+]
+
+---
+name: incentive-5
+template: incentive-4
+
+.right-column-append[
+* Taste of creation
+]
+
+---
+name: questions
+class: middle,center
+
+# Any Question?
+
+---
+name: conclusion
+class: middle, center, conclusion
+
+# How did I do?
+
+#### [mehedishafi@hotmail.com](mailto:mehedishafi@hotmail.com)
+#### https://github.com/mehedi-shafi
+
+
+    </textarea>
+    <script src="js/remark-latest.min.js"></script>
+    <script>
+        var slideshow = remark.create();
+    </script>
+</body>
+
+</html>
